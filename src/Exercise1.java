@@ -45,7 +45,7 @@ public class Exercise1 {
             throw new IllegalArgumentException("Array length must be 5");
         }
         array = Arrays.copyOf(array, array.length + 1);
-        System.out.println(Arrays.toString(array));
+//        System.out.println(Arrays.toString(array));
 
         //move the 4th and 5th elements to the right
         for (int i = array.length -1; i > 3; i--) {

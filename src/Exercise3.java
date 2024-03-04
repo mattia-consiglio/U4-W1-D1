@@ -4,14 +4,14 @@ import java.util.Scanner;
 public class Exercise3 {
     public static void main(String[] args) {
         System.out.println("Insert the number to choose what to do:");
-        System.out.println("0: calculate the rectangle perimeter");
-        System.out.println("1: check if a number is even or odd");
-        System.out.println("2: calculate the triangle perimeter and area");
+        System.out.println("1: calculate the rectangle perimeter");
+        System.out.println("2: check if a number is even or odd");
+        System.out.println("3: calculate the triangle perimeter and area");
 
 
         Scanner sc = new Scanner(System.in);
         int selection= Integer.parseInt(sc.next());
-        if (selection == 0)
+        if (selection == 1)
         {
         //part one of the exercise
             System.out.println("Enter the height of the rectangle: ");
@@ -21,7 +21,7 @@ public class Exercise3 {
             System.out.println("The perimeter of the rectangle is: " + rectanglePerimeter(width, height));
         }
 
-        if (selection==1){
+        if (selection==2){
             System.out.println("Insert an integer number:");
             int evenOdd = evenOdd(Integer.parseInt(sc.next()));
             if (evenOdd==0){
@@ -31,7 +31,7 @@ public class Exercise3 {
             }
         }
 
-        if (selection==2) {
+        if (selection==3) {
             System.out.println("Insert the length of the first triangle side in cm");
             double a = Float.parseFloat(sc.next());
             System.out.println("Insert the length of the second triangle side in cm");

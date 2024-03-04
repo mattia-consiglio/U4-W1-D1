@@ -9,7 +9,9 @@ public class Exercise2 {
         String aString = sc.next();
         System.out.println("Enter second string for concatenation: ");
         String bString = sc.next();
-        System.out.println(aString + " " + bString);
+        System.out.println("Enter third string for concatenation: ");
+        String cString = sc.next();
+        System.out.println(cString + " " + bString+ " "+ aString );
 
         sc.close();
     }

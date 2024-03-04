@@ -5,7 +5,7 @@ public class Exercise1 {
     public static void main(String[] args) {
 
         //part one of the exercise
-       /* Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter first number for multiplication: ");
         int aInt = Integer.parseInt(sc.next());
 
@@ -20,8 +20,7 @@ public class Exercise1 {
         String bString = sc.next();
         System.out.println(concat(aString, bString));
 
-        sc.close();*/
-
+        sc.close();
         //part three of the exercise
         String[] array = {"a", "b", "c", "d", "e"};
         String[] array2 = addInArray(array, "f");
@@ -38,8 +37,8 @@ public class Exercise1 {
     /**
      *
      * @param array the array to add to, must be length 5
-     * @param value
-     * @return
+     * @param value value to add to array
+     * @return the array with the value added
      */
     public static String[] addInArray(String[] array, String value) {
         if(array.length != 5) {

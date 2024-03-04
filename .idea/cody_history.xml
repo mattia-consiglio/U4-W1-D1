@@ -33,6 +33,10 @@
           <model value="Claude 2.0 by Anthropic" />
           <updatedAt value="2024-03-04T15:40:28.0986302" />
         </chat>
+        <chat>
+          <accountId value="VXNlcjoxNDY1MTE=" />
+          <internalId value="ab7bf60a-a6c3-4aec-9c66-dc1a3fff32fc" />
+        </chat>
       </list>
     </chats>
   </component>

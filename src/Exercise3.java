@@ -1,4 +1,4 @@
-import java.util.Arrays;
+
 import java.util.Scanner;
 
 public class Exercise3 {
@@ -58,6 +58,13 @@ public class Exercise3 {
         return 1;
     }
 
+    /**
+     *
+     * @param a first triangle side
+     * @param b second triangle side
+     * @param c third triangle side
+     * @return array with triangle perimeter and area
+     */
     public static double[] triangleAreaAndPerimeter(double a, double b, double c) {
         double perimeter = a+b+c;
         double p = perimeter / 2;
